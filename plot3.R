@@ -33,7 +33,7 @@ points(subhpc$Date_time, subhpc$Sub_metering_2, type = "l", col = "Red")
 points(subhpc$Date_time, subhpc$Sub_metering_3, type = "l", col = "Blue")
 
 #Add legend
-legend("topright", legend = c("sub_metering_1", "sub_metering_2", "sub_metering_3"), lty = c(1,1), lwd = c(2.5,2.5), 
+legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty = c(1,1), lwd = c(2.5,2.5), 
        col = c("black", "blue", "red"))
 
 #Export to png
